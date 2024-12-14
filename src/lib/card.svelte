@@ -71,10 +71,15 @@
     border-radius: 4px;
     border: solid 2px #FFFFFF4D;
     background-color: transparent;
+    cursor: pointer;
 
     & path {
       stroke: #FFFFFF;
     } 
+  }
+
+  button:hover {
+    border: solid 2px #ffffff76;
   }
 
   @media only screen and (min-width: 768px){

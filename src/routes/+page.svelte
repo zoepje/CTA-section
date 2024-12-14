@@ -93,6 +93,14 @@
     }
   }
 
+  a:hover {
+    color: rgb(166, 67, 58);
+
+    & path {
+      stroke: rgb(166, 67, 58);
+    }
+  }
+
   ul {
     list-style: none;
     display: flex;
