@@ -15,7 +15,15 @@
   </a>
 </section>
 
-<Card />
+<ul>
+  <li>
+    <Card />
+  </li>
+  <li>
+    <Card />
+  </li>
+</ul>
+
 
 <style>
   section{
@@ -85,6 +93,18 @@
     }
   }
 
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-inline: auto;
+  }
+
+  li {
+    flex: 1 1 335px;
+  }
+
   @media only screen and (min-width: 768px){
     section {
       margin-bottom: 48px;
@@ -125,6 +145,10 @@
     
     div {
       max-width: 642px;
+    }
+
+    ul {
+      gap: 24px;
     }
   }
 </style>
