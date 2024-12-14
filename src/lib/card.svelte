@@ -28,6 +28,7 @@
   }
 
   .gradient {
+    display: grid;
     width: 100%;
     height: 50%;
     position: absolute;
@@ -40,9 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    position: absolute;
-    bottom: 0;
-    margin: 23px 16px;
+    margin: 24px 16px;
 
     & div {
       display: grid;
@@ -76,5 +75,36 @@
     & path {
       stroke: #FFFFFF;
     } 
+  }
+
+  @media only screen and (min-width: 768px){
+    article {
+      height: 45vh;
+    }
+
+    .container-text {
+      margin: 32px 24px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-size: 19px;
+    }
+
+    button {
+      width: 56px;
+      height: 56px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px){
+    article {
+      height: 55vh;
+    }
   }
 </style>
