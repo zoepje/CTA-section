@@ -2,17 +2,19 @@
   import {Arrow} from "$lib/index.js"
 </script>
 
-<article>
-  <div class="gradient">
-    <div class="container-text">
-      <div>
-        <h2>Title</h2>
-        <p>Supporting text about the call-to-action goes here.</p>
+<a href="/">
+  <article>
+    <div class="gradient">
+      <div class="container-text">
+        <div class="text">
+          <h2>Title</h2>
+          <p>Supporting text about the call-to-action goes here.</p>
+        </div>
+        <div class="button"><Arrow /></div>
       </div>
-      <button><Arrow /></button>
     </div>
-  </div>
-</article>
+  </article>
+</a>
 
 <style>
   article {
@@ -43,7 +45,7 @@
     align-items: flex-end;
     margin: 24px 16px;
 
-    & div {
+    & .text {
       display: grid;
       gap: 8px;
       width: 80%;
@@ -65,7 +67,7 @@
     color: #FAFAFA94;
   }
 
-  button {
+  .button {
     width: 48px;
     height: 48px;
     border-radius: 4px;
@@ -73,12 +75,16 @@
     background-color: transparent;
     cursor: pointer;
 
+    & svg {
+      padding: 17px;
+    }
+
     & path {
       stroke: #FFFFFF;
     } 
   }
 
-  button:hover {
+  a:hover .button{
     border: solid 2px #ffffff76;
   }
 
