@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url(/fonts/TT_Commons_Pro/TT_Commons_Pro_Normal.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url(/fonts/TT_Commons_Pro/TT_Commons_Pro_Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url(/fonts/TT_Commons_Pro/TT_Commons_Pro_DemiBold.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "GT Alpina";
+  src: url(/fonts/GT_Alpina/GTAlpina-Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 48px 20px;
+  font-family: 'TT Commons Pro';
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: 'TT Commons Pro';
+} */
+
+@media only screen and (min-width: 768px){
+  body{
+    margin: 64px 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px){
+  body{
+    margin: 64px;
+  }
+}
