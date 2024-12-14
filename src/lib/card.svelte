@@ -106,11 +106,6 @@
     p {
       font-size: 19px;
     }
-
-    button {
-      width: 56px;
-      height: 56px;
-    }
   }
 
   @media only screen and (min-width: 1440px){
